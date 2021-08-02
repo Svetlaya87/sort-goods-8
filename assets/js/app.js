@@ -25,7 +25,7 @@
         let SortPriceDown = document.getElementById('sortPriceDown');
         let SortPriceUp = document.getElementById('sortPriceUp');
         
-        // вывожу сразу картинки с сортировкой по возврастанию
+        // вывожу сразу картинки с сортировкой по возрастанию
         products.sort(
             function(a, b) {
                  return a.price - b.price;
@@ -48,7 +48,7 @@
             
         });
         
-        // сорт по возраст
+        // сорт по возрастанию
         SortPriceUp.addEventListener('click', function(){
             products.sort(
                 function(a, b) {
